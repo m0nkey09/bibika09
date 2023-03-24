@@ -1,0 +1,27 @@
+img{
+    height: 200px ;
+    width: 400px;
+}
+#good, #bad {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+a{
+    text-decoration: none;
+    color: rgb(39, 24, 124);   
+    margin: 15px;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: aliceblue;
+    height: 50px;
+    align-items: center;
+    font-size: large;
+}
+body{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,9,121,1) 38%, rgba(0,86,255,1) 76%);
+   margin:0px;
+}
